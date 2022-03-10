@@ -269,4 +269,7 @@ img {
   .reverse-main {
     order: 1;
   }
+  .faq{
+    font-size: 1.5rem;
+  }
 }
