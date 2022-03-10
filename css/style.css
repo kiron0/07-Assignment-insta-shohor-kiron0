@@ -36,6 +36,12 @@ textarea {
   --nav-height: 44px;
 }
 
+/* nav bar part */
+
+.navbar-toggler-icon{
+  background-image: url("../images/menu.svg") !important;
+}
+
 svg {
   display: block;
 }
@@ -245,6 +251,11 @@ img {
   display: none;
 }
 
+.common-class {
+  min-height: 500px;
+  margin-bottom: 5rem;
+}
+
 @media only screen and (max-width: 992px) {
   #posts {
     grid-template-columns: repeat(2, 1fr);
@@ -254,5 +265,8 @@ img {
 @media only screen and (max-width: 576px) {
   #posts {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .reverse-main {
+    order: 1;
   }
 }
