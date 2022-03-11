@@ -373,4 +373,13 @@ section{
   .faq{
     font-size: 1.5rem;
   }
+
+  li{
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  i{
+    font-size: 1.2rem;
+  }
 }
